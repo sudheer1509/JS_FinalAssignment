@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="home.js"></script>
+    <script src="checkOut.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="home.css" />
+    <link rel="stylesheet" href="checkOut.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="main-header">
+        <div class="left-header">
+          <div class="logo">
+            <a href="home.html"><b>SHOP</b>LANE</a>
+          </div>
+          <a href="./home.html#heading1">CLOTHING</a>
+          <a href="./home.html#heading2">ACCESSORIES</a>
+        </div>
+        <div class="search-bar">
+          <i class="fas fa-search" aria-hidden="true"></i>
+          <input
+            type="text"
+            name="search"
+            id="search-box"
+            placeholder="Search for Clothing and Accessories"
+          />
+        </div>
+        <div class="right-header">
+          <div id="cart-wrapper">
+            <p id="cartCount">0</p>
+            <a href="/checkOut.html"
+              ><i class="fas fa-shopping-cart" aria-hidden="true"></i
+            ></a>
+          </div>
+          <img src="/photo.jpg" />
+        </div>
+      </div>
+    </header>
+        <section id="main-section">
+            <h1 id="main-heading">Checkout</h1>
+            <h3 class="section-heading">Total Items: <span id="item-count">0</span></h3>
+            <div id="content-wrapper">
+                <div id="card-list">
+                    
+                </div>
+
+                <div>
+                    <h3 class="section-heading">Total Amount</h3>
+                    <p>Amount: Rs<span id="total-amount">0</span></p>
+                    <a href="placeOrder.html"><button id="btn-place-order">Place Order</button></a>
+                </div>
+            </div>
+        </section>
+
+    <footer>
+      <div>
+        <p class="footer-heading">Online Store</p>
+        <a href="/" class="footer-link">Men Clothing</a>
+        <a href="/" class="footer-link">Women Clothing</a>
+        <a href="/" class="footer-link">Men Accessories</a>
+        <a href="/" class="footer-link">Women Accessories</a>
+      </div>
+      <div>
+        <p class="footer-heading">Helpful Links</p>
+        <a href="/" class="footer-link">Home</a>
+        <a href="/" class="footer-link">About</a>
+        <a href="/" class="footer-link">Contact</a>
+      </div>
+      <div>
+        <p class="footer-heading">Partners</p>
+        <a href="/" class="footer-link">Zara</a>
+        <a href="/" class="footer-link">Pantaloons</a>
+        <a href="/" class="footer-link">Levis</a>
+        <a href="/" class="footer-link">UCB</a>
+        <a href="/" class="footer-link">+ Many More</a>
+      </div>
+      <div>
+        <p class="footer-heading">Address</p>
+        <p href="/" class="footer-link">Building 101</p>
+        <p href="/" class="footer-link">Central Avenue</p>
+        <p href="/" class="footer-link">LA - 902722</p>
+        <p href="/" class="footer-link">United States</p>
+      </div>
+    </footer>
+  </body>
+</html>

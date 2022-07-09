@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="detailPage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="main-header">
+        <div class="left-header">
+          <div class="logo"><a href="home.html"><b>SHOP</b>LANE</a></div>
+          <a href="./home.html#heading1">CLOTHING</a>
+          <a href="./home.html#heading2">ACCESSORIES</a>
+        </div>
+        <div class="search-bar">
+            <i class="fas fa-search" aria-hidden="true"></i>
+          <input type="text" name ="search" id="search-box" placeholder="Search for Clothing and Accessories" >
+        </div>
+        <div class="right-header">
+            <div id="cart-wrapper">
+                <p id="cartCount">0</p>
+                <a href="/checkOut.html"><i class="fas fa-shopping-cart" aria-hidden="true"></i></a>
+            </div>
+            <img src="/photo.jpg">
+        </div>
+      </div>
+    </header>
+    <section class="detailPage-container">
+      <div class="dp_left-section">
+        <img id="dp_largePreview" src="" alt="Preview" />
+      </div>
+      <div class="dp_right-section">
+        <h1 id="dp_productName"></h1>
+        <h4 id="dp_productBrand"></h4>
+        <h4 id="dp_priceTitle">Price: Rs <span id="dp_productPrice"></span></h4>
+        <div class="dp_description-wrapper">
+          <h4 id="dp_descriptionTitle">Description</h4>
+          <p id="dp_productDescription"></p>
+        </div>
+        <div class="dp_preview-wrapper">
+          <h4 id="dp_productPreviewTitle">Product Preview</h4>
+          <div class="dp_preview-images" id="dp_previewImgs"></div>
+        </div>
+        <button id="dp_atc_btn">Add to Cart</button>
+      </div>
+    </section>
+
+    <footer>
+      <div>
+        <p class="footer-heading">Online Store</p>
+        <a href="/" class="footer-link">Men Clothing</a>
+        <a href="/" class="footer-link">Women Clothing</a>
+        <a href="/" class="footer-link">Men Accessories</a>
+        <a href="/" class="footer-link">Women Accessories</a>
+      </div>
+      <div>
+        <p class="footer-heading">Helpful Links</p>
+        <a href="/" class="footer-link">Home</a>
+        <a href="/" class="footer-link">About</a>
+        <a href="/" class="footer-link">Contact</a>
+      </div>
+      <div>
+        <p class="footer-heading">Partners</p>
+        <a href="/" class="footer-link">Zara</a>
+        <a href="/" class="footer-link">Pantaloons</a>
+        <a href="/" class="footer-link">Levis</a>
+        <a href="/" class="footer-link">UCB</a>
+        <a href="/" class="footer-link">+ Many More</a>
+      </div>
+      <div>
+        <p class="footer-heading">Address</p>
+        <p href="/" class="footer-link">Building 101</p>
+        <p href="/" class="footer-link">Central Avenue</p>
+        <p href="/" class="footer-link">LA - 902722</p>
+        <p href="/" class="footer-link">United States</p>
+      </div>
+      <script src="detailPage.js"></script>
+    </footer>
+  </body>
+</html>
